@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "e-commerce-app"
+  "cli": {
+    "analytics": false
+  }
 }
