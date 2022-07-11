@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { MatCardModule } from '@angular/material/card'
 import { MatButtonModule } from '@angular/material/button';
 import { MatSliderModule } from '@angular/material/slider';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    DashboardComponent,
 
   ],
   imports: [
@@ -20,6 +24,8 @@ import { MatSliderModule } from '@angular/material/slider';
     MatCardModule,
     MatButtonModule,
     MatSliderModule,
+    MatDividerModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
